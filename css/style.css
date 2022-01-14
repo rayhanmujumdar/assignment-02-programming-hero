@@ -14,6 +14,9 @@ common css
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #FBFBFB;
+}
 p{
     font-family: 'Montserrat', sans-serif; 
 }
@@ -21,11 +24,37 @@ p{
     max-width: 1140px;
     margin: auto;
     padding: 0 15px;
+    background-color: white;
+}
+.highlight{
+    color: var(--common-color);
 }
 :root{
     --common-color: #E03B8B;
 }
+.btn{
+    border: 0;
+    outline: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: var(--common-color);
+}
+.btn-icon-color{
+    color: white;
+}
+.btn:hover .btn-icon-color{
+    color: black;
+}
+img{
+    width: 100%;
+}
 /* navigation section start from here */
+.header{
+    width: 100%;
+    height: 100vh;
+}
 .logo{
     flex: 1;
 }
@@ -34,8 +63,11 @@ p{
 }
 .logo h4{
     font-size: 20px;
-    background-color: #E03B8B;
-    padding: 10px 10px;
+    background-color: var(--common-color);
+    max-width: 60px;
+    min-width: 250px;
+    padding: 15px 0; 
+    text-align: center;
     border-radius: 10px;
     box-shadow: 2px 2px 6px 1px rgba(0,0,0,0.8);
     position: relative;
@@ -64,3 +96,41 @@ p{
     color: black;
     font-weight: 500;
 }
+/* bannar section start from here */
+.bannar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 80px);
+    min-height: 500px;
+}
+.bannar-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bannar-content h1{
+    font-size: 52px;
+}
+.bannar-content p{
+    margin: 25px 0;
+}
+.bannar-content
+.btn{
+    border-radius: 50px;
+}
+.bannar-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* brand-logo section start from here */
+/* .brand-logo{
+    display: flex;
+    margin: 30px 0;
+}
+.photo{
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+} */
