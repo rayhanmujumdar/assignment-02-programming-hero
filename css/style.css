@@ -183,3 +183,38 @@ img{
     padding: 6px 0;
     font-weight: 600;
 }
+/* footer section start from here */
+.footer{
+    padding: 40px 0;
+    background-color: #0A0826;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.copyright-disc{
+    color: white;
+}
+.copyright-disc h1{
+    margin-bottom: 10px;
+}
+.copyright-disc p{
+    margin-bottom: 10px;
+}
+.icon-menu{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.icon-menu li{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(82, 78, 78);
+}
