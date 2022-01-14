@@ -84,16 +84,33 @@ img{
 }
 .menu{
     display: flex;
-    flex: 3;
+    flex: 4;
     justify-content: flex-end;
 }
 .menu li{
     margin-left: 20px;
 }
-.menu li a,
-.menu li i{
+.menu li a{
+    padding: 25px 0;
+}
+.menu li a{
     color: black;
     font-weight: 500;
+    cursor: pointer;
+}
+.shop-icon{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.shop-icon i{
+    margin: 5px;
+    padding: 20px 0;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
 }
 /* bannar section start from here */
 .bannar{
