@@ -1,0 +1,40 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .nav-bar{
+        flex-direction: column;
+        min-height: 80px;
+    }
+    .menu{
+        margin: 20px 0;
+        display: none;
+    }
+    .shop-icon{
+        display: none;
+    }
+    .bannar{
+        min-height: 0;
+        grid-template-columns: 1fr;
+        text-align: center;
+        height: auto;
+    }
+    .bannar-content{
+        align-items: center;
+    }
+    .collection{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .form input{
+        max-width: 330px;
+    }
+    .form textarea{
+        max-width: 330px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .bannar{
+        height: auto;
+    }
+    .collection{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+}
