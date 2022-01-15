@@ -29,7 +29,7 @@ p{
     color: var(--common-color);
 }
 :root{
-    --common-color: #E03B8B;
+    --common-color: #BF3312;
 }
 .btn{
     border: 0;
@@ -199,6 +199,47 @@ img{
 .card-disc{
     padding: 6px 0;
     font-weight: 600;
+}
+/* form section start from here */
+.log-in-form{
+    width: 100%;
+    margin: 40px 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    margin-bottom: 20px;
+    width: 500px;
+    height: 50px;
+    padding-left: 18px;
+    border-radius: 5px;
+    border: 1px solid var(--common-color);
+}
+.form input:focus{
+    outline: none;
+}
+.form textarea{
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--common-color);
+    padding: 15px;
+    resize: none;
+}
+.form textarea:focus{
+    outline: none;
+}
+.form .btn{
+    border-radius: 5px;
+    padding: 10px 100px;
+}
+.form .btn:hover{
+     background-color: black;
+     
 }
 /* footer section start from here */
 .footer{
