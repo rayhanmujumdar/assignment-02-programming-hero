@@ -46,7 +46,6 @@
     }
     #nav-toggle:checked ~ .menu{
         transform: translateY(0px);
-        transition: transform .2s ease .1s;
     }
 }
 /* tablet version responsive */
